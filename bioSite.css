@@ -1,0 +1,22 @@
+html, head {
+    font-size: 16px;
+}
+
+img.align-right {
+    margin: auto 10px;
+    float: right;
+
+}
+
+img.align-left {
+    margin: auto 10px;
+    float: left;
+
+}
+
+img.align-bottom {
+    position: relative;
+    top: 50px;
+    right: 10px;
+
+}
