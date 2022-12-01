@@ -1,22 +1,47 @@
-html, head {
-    font-size: 16px;
+html {
+    background-color: rgba(109, 103, 100, 0.2);
 }
 
-img.align-right {
-    margin: auto 10px;
-    float: right;
-
+#image-gallery {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
-img.align-left {
-    margin: auto 10px;
-    float: left;
-
+#page-title {
+    text-align: center;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 400;
 }
 
-img.align-bottom {
-    position: relative;
-    top: 50px;
-    right: 10px;
+img {
+    width: 400px;
+    height: 350px;
+}
 
+.gallery-title {
+    text-align: center;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 400;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-style: italic;
+    font-size: .75em;
+    font-weight: 400;
+}
+
+h1, h3, figcaption {
+    color: rgb(22, 21, 20);
+}
+
+.gallery-item {
+    border: 1px solid rgb(10, 4, 1);
+    border-radius: 15px;
+    padding: 5px;
 }
